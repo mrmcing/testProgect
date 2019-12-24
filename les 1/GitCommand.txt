@@ -1,0 +1,19 @@
+git init - создание гита в папке
+
+echo >> README.md -создание редми файла
+
+git config --local user.name "Korolev"
+git config --local user.email example@gmail.com  - добавление данных информации о пользователи в конфиг
+
+git add -A - индексирует все файлы в папке 
+git add *.html - индексирует файлы html и т.д
+
+git status - статус гит файлов
+
+git commit -a -m 'start progect' - комментирует все изменения
+
+git remote add test https://github.com/mrmcing/testProgect.git
+
+git push -u test master - отправляет данные на гитхаб в ветку master 
+
+git push test - обновляет данные на китхабе
